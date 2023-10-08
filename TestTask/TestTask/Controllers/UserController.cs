@@ -132,29 +132,29 @@ public class UserController : ControllerBase
         try
         {
             await _userService.DeleteUserAsync(id);
-            _logger.LogInformation($"User with Id {id} has been deleted.");
-            return Ok($"User with Id {id} has been deleted.");
+            _logger.LogInformation($"User({id}) has been deleted.");
+            return Ok($"User({id}) has been deleted.");
         }
         catch (DbUpdateException e)
         {
-            _logger.LogError($"User with Id {id} hasn't been deleted.");
-            return StatusCode(StatusCodes.Status500InternalServerError, $"User with Id {id} hasn't been deleted.");
+            _logger.LogError($"User({id}) hasn't been deleted.");
+            return StatusCode(StatusCodes.Status500InternalServerError, $"User({id}) hasn't been deleted.");
         }
     }
     
     [HttpDelete("deleteRole")]
-    public async Task<IActionResult> DeleteUserRole([FromBody] AddUserRoleRequest request)
+    public async Task<IActionResult> DeleteUserRole([FromBody] DeleteUserRoleRequest request)
     {
         try
         {
-            await _userService.DeleteUserRoleAsync(request.UserId, request.RoleId);
-            _logger.LogInformation($"Role({request.RoleId}) has been deleted from user({request.UserId})");
-            return Ok($"Role({request.RoleId}) has been deleted from user({request.UserId})");
+            _userService.DeleteUserRoleAsync(request.UserId, request.RoleId);
+            _logger.LogInformation($"Role({request.RoleId}) removed from User({request.UserId})");
+            return Ok($"Role({request.RoleId}) removed from User({request.UserId})");
         }
-        catch (Exception ex)
+        catch (Exception e)
         {
-            _logger.LogError($"Can't delete role({request.RoleId}) from user({request.UserId}): {ex.Message}");
-            return StatusCode(500, $"Can't delete role({request.RoleId}) from user({request.UserId}): {ex.Message}");
+            _logger.LogError($"Role with Id {request.RoleId} hasn't been deleted from User({request.UserId}).");
+            return StatusCode(StatusCodes.Status500InternalServerError, $"Role with Id {request.RoleId} hasn't been deleted from User({request.UserId}).");
         }
     }
 }

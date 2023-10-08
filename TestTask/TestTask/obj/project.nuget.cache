@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "knDMD8lL5M9nD5wdyMwi5CGkTzSD2wYi1h5Qn8D+zDPjHojc7+LZVMtDnZpvmzzhaK3jsP9hSuC8DKzy36STlg==",
+  "dgSpecHash": "2MMSHBF4bd+vhTwy4X7amVooW73GRD2LzENibb7UTdlRB1qFLFTBCJEQzZUlk1RZBGYZNqv8TdW6LP2pGj8wHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Новая папка (3)\\Junior .Net Task\\TestTask\\TestTask\\TestTask.csproj",
+  "projectFilePath": "C:\\НЕ СИСТЕМА\\BSUIR\\Users-CRUD\\TestTask\\TestTask\\TestTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
