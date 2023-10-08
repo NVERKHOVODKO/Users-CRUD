@@ -1,0 +1,282 @@
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\TestTask.exe
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\TestTask.deps.json
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\TestTask.runtimeconfig.json
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfo.cs
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.TestTask.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.build.TestTask.props
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestTask.props
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestTask.props
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\scopedcss\bundle\TestTask.styles.css
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CopyComplete
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\refint\TestTask.dll
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\TestTask.genruntimeconfig.cache
+C:\Users\user\Desktop\TestTask\TestTask\obj\Debug\net6.0\ref\TestTask.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\appsettings.Development.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\appsettings.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.exe
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.deps.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.runtimeconfig.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.pdb
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Azure.Core.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Azure.Identity.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Humanizer.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.CodeDom.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Memory.Data.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Text.Json.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.AssemblyReference.cache
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfoInputs.cache
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfo.cs
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CoreCompileInputs.cache
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cs
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cache
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.TestTask.Microsoft.AspNetCore.StaticWebAssets.props
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.build.TestTask.props
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestTask.props
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestTask.props
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.pack.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.build.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.development.json
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\scopedcss\bundle\TestTask.styles.css
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CopyComplete
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\refint\TestTask.dll
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.pdb
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.genruntimeconfig.cache
+C:\НЕ СИСТЕМА\BSUIR\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\ref\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.exe
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.deps.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.runtimeconfig.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfo.cs
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.TestTask.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.build.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\scopedcss\bundle\TestTask.styles.css
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CopyComplete
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\refint\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\TestTask.genruntimeconfig.cache
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\obj\Debug\net6.0\ref\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Npgsql.dll
+C:\Users\user\Desktop\Новая папка (3)\iFortex-test\TestTask\TestTask\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\appsettings.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\TestTask.exe
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\TestTask.deps.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\TestTask.runtimeconfig.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Humanizer.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Npgsql.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.AssemblyInfo.cs
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.TestTask.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.build.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestTask.props
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\scopedcss\bundle\TestTask.styles.css
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.csproj.CopyComplete
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\refint\TestTask.dll
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.pdb
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\TestTask.genruntimeconfig.cache
+C:\Users\user\Desktop\Новая папка (3)\Junior .Net Task\TestTask\TestTask\obj\Debug\net6.0\ref\TestTask.dll
