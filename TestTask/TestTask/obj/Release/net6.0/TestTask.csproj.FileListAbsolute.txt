@@ -66,3 +66,6 @@ C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Release\net6.0\ref
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Release\net6.0\TestTask.pdb
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Release\net6.0\TestTask.genruntimeconfig.cache
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Release\net6.0\ref\TestTask.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Release\net6.0\TestTask.xml
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Release\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Release\net6.0\TestTask.xml

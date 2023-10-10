@@ -74,6 +74,15 @@ public class UserController : ControllerBase
     /// Add a role to a user.
     /// </summary>
     /// <param name="request">Request to add a role to a user.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     POST /api/users/addRole
+    ///     {
+    ///         "userId": "00000000-0000-0000-0000-000000000000",
+    ///         "roleId": "00000000-0000-0000-0000-000000000000"
+    ///     }
+    /// </remarks>
     /// <returns>Result of adding the role to the user.</returns>
     /// <response code="200">Role added to the user successfully.</response>
     /// <response code="500">An error occurred while adding the role to the user.</response>
@@ -99,6 +108,11 @@ public class UserController : ControllerBase
     /// Get a user by their ID.
     /// </summary>
     /// <param name="id">The unique identifier of the user.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     GET /api/users/getUser?id=00000000-0000-0000-0000-000000000000
+    /// </remarks>
     /// <returns>The user with the specified ID.</returns>
     /// <response code="200">User found and returned successfully.</response>
     /// <response code="404">User with the specified ID not found.</response>
@@ -121,7 +135,9 @@ public class UserController : ControllerBase
     /// </summary>
     /// <param name="pageNumber">The page number of the results (1-based).</param>
     /// <param name="pageSize">The number of users per page.</param>
-    /// <returns>A paginated list of users.</returns>
+    /// <remarks>
+    /// </remarks>
+    /// <returns>The user with the specified ID.</returns>
     /// <response code="200">List of users retrieved successfully.</response>
     /// <response code="400">Invalid page number or page size provided.</response>
     /// <response code="404">No users found.</response>
@@ -152,6 +168,29 @@ public class UserController : ControllerBase
     /// Filter and sort users with pagination.
     /// </summary>
     /// <param name="request">The filter and sort criteria.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     POST /api/users/filterSortUsers
+    ///     {
+    ///         "pageNumber": 1,
+    ///         "pageSize": 10,
+    ///         "filters": [
+    ///             {
+    ///                 "param": "age",
+    ///                 "min": 20,
+    ///                 "max": 30
+    ///             },
+    ///             {
+    ///                 "param": "name",
+    ///                 "min": 3,
+    ///                 "max": 20
+    ///             }
+    ///         ],
+    ///         "sortField": "name",
+    ///         "sortDirection": "Ascending"
+    ///     }
+    /// </remarks>
     /// <returns>A paginated list of filtered and sorted users.</returns>
     /// <response code="200">Filtered and sorted users retrieved successfully.</response>
     /// <response code="400">Invalid page number or page size provided.</response>
@@ -183,6 +222,18 @@ public class UserController : ControllerBase
     /// Filter and sort roles with pagination.
     /// </summary>
     /// <param name="request">The filter and sort criteria.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     POST /api/users/filterSortRoles
+    ///     {
+    ///         "pageNumber": 1,
+    ///         "pageSize": 10,
+    ///         "selectedRoles": ["Admin", "Support"],
+    ///         "sortField": "role",
+    ///         "sortDirection": "Ascending"
+    ///     }
+    /// </remarks>
     /// <returns>A paginated list of filtered and sorted roles.</returns>
     /// <response code="200">Filtered and sorted roles retrieved successfully.</response>
     /// <response code="400">Invalid page number or page size provided.</response>
@@ -214,6 +265,17 @@ public class UserController : ControllerBase
     /// Edit an existing user.
     /// </summary>
     /// <param name="request">The user details to be edited.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     PUT /api/users/editUser
+    ///     {
+    ///         "id": "12345678-1234-1234-1234-123456789012",
+    ///         "name": "Updated User",
+    ///         "email": "updated@example.com",
+    ///         "age": 35
+    ///     }
+    /// </remarks>
     /// <returns>A message indicating the result of the user edit.</returns>
     /// <response code="200">User edited successfully.</response>
     /// <response code="400">Invalid user details or non-unique email provided.</response>
@@ -254,6 +316,11 @@ public class UserController : ControllerBase
     /// Delete a user by their ID.
     /// </summary>
     /// <param name="id">The ID of the user to delete.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     DELETE /api/users/deleteUser?id=12345678-1234-1234-1234-123456789012
+    /// </remarks>
     /// <returns>A message indicating the result of the user deletion.</returns>
     /// <response code="200">User deleted successfully.</response>
     /// <response code="400">Invalid ID provided.</response>

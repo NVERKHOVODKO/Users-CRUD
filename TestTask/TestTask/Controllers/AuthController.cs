@@ -19,6 +19,11 @@ public class AuthController : ControllerBase
     /// Generate an authentication token.
     /// </summary>
     /// <param name="email">The email of the user to log in.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     GET /api/users/login?email=johndoe@example.com
+    /// </remarks>
     /// <returns>An authentication token if the login is successful.</returns>
     /// <response code="200">Authentication token generated successfully.</response>
     /// <response code="404">User with the provided email not found.</response>

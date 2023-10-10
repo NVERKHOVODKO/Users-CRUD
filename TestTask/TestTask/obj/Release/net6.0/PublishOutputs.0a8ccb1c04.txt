@@ -32,8 +32,10 @@ C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Mic
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Newtonsoft.Json.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Npgsql.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Swashbuckle.AspNetCore.Annotations.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\System.IdentityModel.Tokens.Jwt.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\TestTask.xml
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Docker\publish\TestTask.deps.json
