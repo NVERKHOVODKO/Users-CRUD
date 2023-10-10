@@ -163,7 +163,7 @@ namespace TestApplication.Services
             return userWithSameEmail == null;
         }
         
-        public async Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortRequest request)
+        public async Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortUserRequest request)
         {
             IQueryable<UserModel> query = _context.Users
                 .Include(u => u.UserRoleModels)
@@ -211,5 +211,34 @@ namespace TestApplication.Services
     
             return users;
         }
+        
+        public async Task<List<RoleModel>> GetFilteredAndSortedRoles(FilterSortRolesRequest request)
+        {
+            IQueryable<RoleModel> query = _context.Roles;
+            if (request.SelectedRoles != null && request.SelectedRoles.Any())
+            {
+                query = query.Where(role => request.SelectedRoles.Contains(role.Role));
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.SortField))
+            {
+                switch (request.SortField.ToLower())
+                {
+                    case "role":
+                        if (request.SortDirection == SortDirection.Ascending)
+                        {
+                            query = query.OrderBy(role => role.Role);
+                        }
+                        else
+                        {
+                            query = query.OrderByDescending(role => role.Role);
+                        }
+                        break;
+                }
+            }
+            var roles = await query.ToListAsync();
+            return roles;
+        }
+
     }
 }

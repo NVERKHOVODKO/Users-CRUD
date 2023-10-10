@@ -2,7 +2,7 @@
 
 namespace TestApplication.DTO;
 
-public class FilterSortRequest
+public class FilterSortUserRequest
 {
     public List<FilterParams> Filters { get; set; }
     public string SortField { get; set; }

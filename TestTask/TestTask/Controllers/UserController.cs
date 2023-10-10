@@ -88,17 +88,33 @@ public class UserController : ControllerBase
 
     [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("filterSort")]
-    public async Task<IActionResult> FilterSortUsers(FilterSortRequest request)
+    public async Task<IActionResult> FilterSortUsers(FilterSortUserRequest userRequest)
     {
         try
         {
-            var filteredUsers = await _userService.GetFilteredAndSortedUsers(request);
+            var filteredUsers = await _userService.GetFilteredAndSortedUsers(userRequest);
             return Ok(filteredUsers);
         }
         catch (Exception ex)
         {
             _logger.LogError($"Error filtering/sorting users: {ex.Message}");
             return StatusCode(500, $"Error filtering/sorting users: {ex.Message}");
+        }
+    }
+    
+    [Authorize(Roles = "Admin, SuperAdmin, Support")]
+    [HttpPost("filterSortRoles")]
+    public async Task<IActionResult> FilterSortUsersRoles(FilterSortRolesRequest request)
+    {
+        try
+        {
+            var filteredRoles = await _userService.GetFilteredAndSortedRoles(request);
+            return Ok(filteredRoles);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError($"Error filtering/sorting roles: {ex.Message}");
+            return StatusCode(500, $"Error filtering/sorting roles: {ex.Message}");
         }
     }
     

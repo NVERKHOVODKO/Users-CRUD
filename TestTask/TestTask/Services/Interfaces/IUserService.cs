@@ -13,5 +13,6 @@ public interface IUserService
     public Task EditUserAsync(EditUserRequest request);
     public Task<bool> IsEmailUniqueAsync(string email);
     public Task<bool> IsEmailUniqueForUserAsync(Guid userId, string email);
-    public Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortRequest request);
+    public Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortUserRequest request);
+    public Task<List<RoleModel>> GetFilteredAndSortedRoles(FilterSortRolesRequest request);
 }
