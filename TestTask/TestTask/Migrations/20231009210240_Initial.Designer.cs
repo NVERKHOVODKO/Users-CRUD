@@ -12,7 +12,7 @@ using TestApplication.Data;
 namespace TestTask.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231008111139_Initial")]
+    [Migration("20231009210240_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -54,6 +54,10 @@ namespace TestTask.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Token")
                         .IsRequired()
                         .HasColumnType("text");
 

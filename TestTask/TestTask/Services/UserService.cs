@@ -96,49 +96,54 @@ namespace TestApplication.Services
             }
         }
 
-        
-        public async Task DeleteUserRoleAsync(Guid userId, Guid roleId)
-        {
-            var user = await _context.Users.FindAsync(userId);
-            if (user != null)
-            {
-                var userRoleToDelete = _context.UserRoles.FirstOrDefault(ur => ur.UserId == userId && ur.RoleId == roleId);
-                if (userRoleToDelete != null)
-                {
-                    _context.UserRoles.Remove(userRoleToDelete);
-                    await _context.SaveChangesAsync();
-                    _logger.LogInformation($"Role with Id {roleId} has been removed from user with Id {userId}.");
-                }
-                else
-                {
-                    _logger.LogInformation($"Role with Id {roleId} was not found for user with Id {userId}.");
-                }
-            }
-            else
-            {
-                _logger.LogInformation($"User with Id {userId} was not found.");
-            }
-        }
-
-
-        public async Task<UserModel> GetUser(Guid userId)
+        public async Task<UserGetResponse> GetUser(Guid userId)
         {
             var user = await _context.Users
                 .Include(u => u.UserRoleModels)
                 .ThenInclude(ur => ur.RoleModel) // Включаем связанные объекты RoleModel
                 .FirstOrDefaultAsync(u => u.Id == userId);
             
-            return user;
+            var userGetResponse = new UserGetResponse
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Age = user.Age,
+                Roles = user.UserRoleModels
+                    .Select(ur => new RoleModel
+                    {
+                        Id = ur.RoleModel.Id,
+                        Role = ur.RoleModel.Role
+                    })
+                    .ToList()
+            };
+            
+            return userGetResponse;
         }
         
-        public async Task<List<UserModel>> GetUsers()
+        public async Task<List<UserGetResponse>> GetUsers()
         {
             var users = await _context.Users
                 .Include(u => u.UserRoleModels)
                 .ThenInclude(ur => ur.RoleModel)
                 .ToListAsync();
-            
-            return users;
+
+            var userGetResponses = users.Select(user => new UserGetResponse
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Age = user.Age,
+                Roles = user.UserRoleModels
+                    .Select(ur => new RoleModel
+                    {
+                        Id = ur.RoleModel.Id,
+                        Role = ur.RoleModel.Role
+                    })
+                    .ToList()
+            }).ToList();
+
+            return userGetResponses;
         }
         
         public async Task<bool> IsEmailUniqueAsync(string email)
@@ -152,7 +157,6 @@ namespace TestApplication.Services
             var userWithSameEmail = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Id != userId);
             return userWithSameEmail == null;
         }
-        
         
         public async Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortRequest request)
         {

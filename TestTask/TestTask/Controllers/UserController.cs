@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestApplication.DTO;
 using TestApplication.Services;
 
+
 namespace TestApplication.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 public class UserController : ControllerBase
@@ -18,6 +21,7 @@ public class UserController : ControllerBase
         _logger = logger;
     }
     
+    [Authorize(Roles = "Admin, SuperAdmin")]
     [HttpPost("create")]
     public async Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
     {
@@ -42,6 +46,7 @@ public class UserController : ControllerBase
         }
     }
 
+    [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("addRole")]
     public async Task<IActionResult> AddRoleToUser([FromBody] AddUserRoleRequest request)
     {
@@ -57,6 +62,7 @@ public class UserController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpGet("getUser")]
     public async Task<IActionResult> GetUser(Guid id)
     {
@@ -68,6 +74,7 @@ public class UserController : ControllerBase
         return Ok(user);
     }
     
+    [Authorize]
     [HttpGet("getUsers")]
     public async Task<IActionResult> GetUsers()
     {
@@ -78,7 +85,8 @@ public class UserController : ControllerBase
         }
         return NotFound("Users not found");
     }
-    
+
+    [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("filterSort")]
     public async Task<IActionResult> FilterSortUsers(FilterSortRequest request)
     {
@@ -94,6 +102,7 @@ public class UserController : ControllerBase
         }
     }
     
+    [Authorize(Roles = "Admin, SuperAdmin")]
     [HttpPut("editUser")]
     public async Task<IActionResult> EditUser(EditUserRequest request)
     {
@@ -122,6 +131,7 @@ public class UserController : ControllerBase
         }
     }
     
+    [Authorize(Roles = "SuperAdmin")]
     [HttpDelete("deleteUser")]
     public async Task<IActionResult> DeleteUser(Guid id)
     {
@@ -139,22 +149,6 @@ public class UserController : ControllerBase
         {
             _logger.LogError($"User({id}) hasn't been deleted.");
             return StatusCode(StatusCodes.Status500InternalServerError, $"User({id}) hasn't been deleted.");
-        }
-    }
-    
-    [HttpDelete("deleteRole")]
-    public async Task<IActionResult> DeleteUserRole([FromBody] DeleteUserRoleRequest request)
-    {
-        try
-        {
-            _userService.DeleteUserRoleAsync(request.UserId, request.RoleId);
-            _logger.LogInformation($"Role({request.RoleId}) removed from User({request.UserId})");
-            return Ok($"Role({request.RoleId}) removed from User({request.UserId})");
-        }
-        catch (Exception e)
-        {
-            _logger.LogError($"Role with Id {request.RoleId} hasn't been deleted from User({request.UserId}).");
-            return StatusCode(StatusCodes.Status500InternalServerError, $"Role with Id {request.RoleId} hasn't been deleted from User({request.UserId}).");
         }
     }
 }
