@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Net.Mime;
+using Microsoft.AspNetCore.Mvc;
 using TestApplication.Services;
 
 namespace TestApplication.Controllers;
@@ -14,7 +15,16 @@ public class AuthController : ControllerBase
         _authService = authService;
     }
     
+    /// <summary>
+    /// Generate an authentication token.
+    /// </summary>
+    /// <param name="email">The email of the user to log in.</param>
+    /// <returns>An authentication token if the login is successful.</returns>
+    /// <response code="200">Authentication token generated successfully.</response>
+    /// <response code="404">User with the provided email not found.</response>
     [HttpGet("login")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Login(string email)
     {
         try

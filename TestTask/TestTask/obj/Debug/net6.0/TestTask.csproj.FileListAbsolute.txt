@@ -346,3 +346,8 @@ C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Micro
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Docker.DotNet.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\TestTask.xml
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Debug\net6.0\TestTask.xml
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

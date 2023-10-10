@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.Net.Mime;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TestApplication.DTO;
@@ -9,6 +10,7 @@ namespace TestApplication.Controllers;
 
 [Authorize]
 [ApiController]
+[Produces("application/json")]
 [Route("[controller]")]
 public class UserController : ControllerBase
 {
@@ -21,8 +23,30 @@ public class UserController : ControllerBase
         _logger = logger;
     }
     
+    /// <summary>
+    /// Create a new user.
+    /// </summary>
+    /// <param name="request">Request to create a user.</param>
+    /// <remarks>
+    /// Sample request:
+    ///
+    ///     POST /api/users/create
+    ///     {
+    ///         "name": "John Doe",
+    ///         "email": "johndoe@example.com",
+    ///         "age": 30
+    ///     }
+    ///
+    /// </remarks>
+    /// <returns>Result of user creation.</returns>
+    /// <response code="200">User created successfully.</response>
+    /// <response code="400">User with the same email already exists or the age is less than zero.</response>
+    /// <response code="500">An error occurred while creating the user.</response>
     [Authorize(Roles = "Admin, SuperAdmin")]
     [HttpPost("create")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
     {
         _logger.LogInformation($"CreateUserRequest(Name: {request.Name}; Email: {request.Email}; Age: {request.Age})");
@@ -46,8 +70,17 @@ public class UserController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Add a role to a user.
+    /// </summary>
+    /// <param name="request">Request to add a role to a user.</param>
+    /// <returns>Result of adding the role to the user.</returns>
+    /// <response code="200">Role added to the user successfully.</response>
+    /// <response code="500">An error occurred while adding the role to the user.</response>
     [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("addRole")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> AddRoleToUser([FromBody] AddUserRoleRequest request)
     {
         try
@@ -62,8 +95,17 @@ public class UserController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Get a user by their ID.
+    /// </summary>
+    /// <param name="id">The unique identifier of the user.</param>
+    /// <returns>The user with the specified ID.</returns>
+    /// <response code="200">User found and returned successfully.</response>
+    /// <response code="404">User with the specified ID not found.</response>
     [Authorize]
     [HttpGet("getUser")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetUser(Guid id)
     {
         var user = await _userService.GetUser(id);
@@ -74,8 +116,20 @@ public class UserController : ControllerBase
         return Ok(user);
     }
     
+    /// <summary>
+    /// Get a paginated list of users.
+    /// </summary>
+    /// <param name="pageNumber">The page number of the results (1-based).</param>
+    /// <param name="pageSize">The number of users per page.</param>
+    /// <returns>A paginated list of users.</returns>
+    /// <response code="200">List of users retrieved successfully.</response>
+    /// <response code="400">Invalid page number or page size provided.</response>
+    /// <response code="404">No users found.</response>
     [Authorize]
     [HttpGet("getUsers")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetUsers(int pageNumber, int pageSize)
     {
         if (pageSize < 1 || pageNumber < 1)
@@ -94,8 +148,19 @@ public class UserController : ControllerBase
     }
 
 
+    /// <summary>
+    /// Filter and sort users with pagination.
+    /// </summary>
+    /// <param name="request">The filter and sort criteria.</param>
+    /// <returns>A paginated list of filtered and sorted users.</returns>
+    /// <response code="200">Filtered and sorted users retrieved successfully.</response>
+    /// <response code="400">Invalid page number or page size provided.</response>
+    /// <response code="500">Error occurred while filtering/sorting users.</response>
     [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("filterSortUsers")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> FilterSortUsers(FilterSortUserRequest request)
     {
         if (request.PageNumber < 1 || request.PageSize < 1)
@@ -114,8 +179,19 @@ public class UserController : ControllerBase
         }
     }
     
+    /// <summary>
+    /// Filter and sort roles with pagination.
+    /// </summary>
+    /// <param name="request">The filter and sort criteria.</param>
+    /// <returns>A paginated list of filtered and sorted roles.</returns>
+    /// <response code="200">Filtered and sorted roles retrieved successfully.</response>
+    /// <response code="400">Invalid page number or page size provided.</response>
+    /// <response code="500">Error occurred while filtering/sorting roles.</response>
     [Authorize(Roles = "Admin, SuperAdmin, Support")]
     [HttpPost("filterSortRoles")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> FilterSortUsersRoles(FilterSortRolesRequest request)
     {
         if (request.PageNumber < 1 || request.PageSize < 1)
@@ -134,8 +210,19 @@ public class UserController : ControllerBase
         }
     }
     
+    /// <summary>
+    /// Edit an existing user.
+    /// </summary>
+    /// <param name="request">The user details to be edited.</param>
+    /// <returns>A message indicating the result of the user edit.</returns>
+    /// <response code="200">User edited successfully.</response>
+    /// <response code="400">Invalid user details or non-unique email provided.</response>
+    /// <response code="500">Error occurred while editing the user.</response>
     [Authorize(Roles = "Admin, SuperAdmin")]
     [HttpPut("editUser")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> EditUser(EditUserRequest request)
     {
         if (request.Email == null || request.Name == null || request.Age == null || request.Id == null)
@@ -163,8 +250,19 @@ public class UserController : ControllerBase
         }
     }
     
+    /// <summary>
+    /// Delete a user by their ID.
+    /// </summary>
+    /// <param name="id">The ID of the user to delete.</param>
+    /// <returns>A message indicating the result of the user deletion.</returns>
+    /// <response code="200">User deleted successfully.</response>
+    /// <response code="400">Invalid ID provided.</response>
+    /// <response code="500">Error occurred while deleting the user.</response>
     [Authorize(Roles = "SuperAdmin")]
     [HttpDelete("deleteUser")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> DeleteUser(Guid id)
     {
         if (id == null)
