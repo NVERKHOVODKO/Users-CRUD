@@ -17,7 +17,6 @@ public class AuthService : IAuthService
     {
         _context = context;
         _configuration = configuration;
-
     }
     
     public async Task<bool> IsUserExists(string email)
@@ -55,7 +54,6 @@ public class AuthService : IAuthService
             claims,
             expires: DateTime.UtcNow.AddMinutes(10),
             signingCredentials: signIn);
-        
         
         return new JwtSecurityTokenHandler().WriteToken(token);
     } 

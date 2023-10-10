@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using TestApplication.DTO;
 using TestApplication.Services;
 
 namespace TestApplication.Controllers;
@@ -26,7 +24,7 @@ public class AuthController : ControllerBase
         }
         catch (KeyNotFoundException e)
         {
-            return NotFound("not found");
+            return NotFound($"not found {e.Message}");
         }
     }
 }

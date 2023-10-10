@@ -102,6 +102,11 @@ namespace TestApplication.Services
                 .Include(u => u.UserRoleModels)
                 .ThenInclude(ur => ur.RoleModel) // Включаем связанные объекты RoleModel
                 .FirstOrDefaultAsync(u => u.Id == userId);
+
+            if (user == null)
+            {
+                return null;
+            }
             
             var userGetResponse = new UserGetResponse
             {
@@ -163,7 +168,6 @@ namespace TestApplication.Services
             IQueryable<UserModel> query = _context.Users
                 .Include(u => u.UserRoleModels)
                 .ThenInclude(ur => ur.RoleModel);
-
 
             foreach (var param in request.Filters)
             {
