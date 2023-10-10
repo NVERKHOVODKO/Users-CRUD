@@ -76,23 +76,35 @@ public class UserController : ControllerBase
     
     [Authorize]
     [HttpGet("getUsers")]
-    public async Task<IActionResult> GetUsers()
+    public async Task<IActionResult> GetUsers(int pageNumber, int pageSize)
     {
-        var users = await _userService.GetUsers();
+        if (pageSize < 1 || pageNumber < 1)
+        {
+            return BadRequest("Invalid page number or page size.");
+        }
+
+        var users = await _userService.GetUsers(pageNumber, pageSize);
+
         if (users.Any())
         {
             return Ok(users);
         }
+    
         return NotFound("Users not found");
     }
 
+
     [Authorize(Roles = "Admin, SuperAdmin, Support")]
-    [HttpPost("filterSort")]
-    public async Task<IActionResult> FilterSortUsers(FilterSortUserRequest userRequest)
+    [HttpPost("filterSortUsers")]
+    public async Task<IActionResult> FilterSortUsers(FilterSortUserRequest request)
     {
+        if (request.PageNumber < 1 || request.PageSize < 1)
+        {
+            return BadRequest("Invalid page number or page size.");
+        }
         try
         {
-            var filteredUsers = await _userService.GetFilteredAndSortedUsers(userRequest);
+            var filteredUsers = await _userService.GetFilteredAndSortedUsers(request);
             return Ok(filteredUsers);
         }
         catch (Exception ex)
@@ -106,6 +118,10 @@ public class UserController : ControllerBase
     [HttpPost("filterSortRoles")]
     public async Task<IActionResult> FilterSortUsersRoles(FilterSortRolesRequest request)
     {
+        if (request.PageNumber < 1 || request.PageSize < 1)
+        {
+            return BadRequest("Invalid page number or page size.");
+        }
         try
         {
             var filteredRoles = await _userService.GetFilteredAndSortedRoles(request);

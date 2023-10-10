@@ -126,9 +126,12 @@ namespace TestApplication.Services
             return userGetResponse;
         }
         
-        public async Task<List<UserGetResponse>> GetUsers()
+        public async Task<List<UserGetResponse>> GetUsers(int pageNumber, int pageSize)
         {
+            var skipCount = (pageNumber - 1) * pageSize;
             var users = await _context.Users
+                .Skip(skipCount)
+                .Take(pageSize)
                 .Include(u => u.UserRoleModels)
                 .ThenInclude(ur => ur.RoleModel)
                 .ToListAsync();
@@ -163,7 +166,7 @@ namespace TestApplication.Services
             return userWithSameEmail == null;
         }
         
-        public async Task<List<UserModel>> GetFilteredAndSortedUsers(FilterSortUserRequest request)
+        public async Task<List<UserGetResponse>> GetFilteredAndSortedUsers(FilterSortUserRequest request)
         {
             IQueryable<UserModel> query = _context.Users
                 .Include(u => u.UserRoleModels)
@@ -187,7 +190,7 @@ namespace TestApplication.Services
                     }
                 }
             }
-            
+
             switch (request.SortField.ToLower())
             {
                 case "age":
@@ -206,11 +209,27 @@ namespace TestApplication.Services
                         : query.OrderByDescending(u => u.Email);
                     break;
             }
+            
+            var skipCount = (request.PageNumber - 1) * request.PageSize;
+            var users = await query.Skip(skipCount).Take(request.PageSize).ToListAsync();
+            var userGetResponses = users.Select(user => new UserGetResponse
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Age = user.Age,
+                Roles = user.UserRoleModels
+                    .Select(ur => new RoleModel
+                    {
+                        Id = ur.RoleModel.Id,
+                        Role = ur.RoleModel.Role
+                    })
+                    .ToList()
+            }).ToList();
 
-            var users = await query.ToListAsync();
-    
-            return users;
+            return userGetResponses;
         }
+
         
         public async Task<List<RoleModel>> GetFilteredAndSortedRoles(FilterSortRolesRequest request)
         {
@@ -236,9 +255,10 @@ namespace TestApplication.Services
                         break;
                 }
             }
-            var roles = await query.ToListAsync();
+            var skipCount = (request.PageNumber - 1) * request.PageSize;
+            var roles = await query.Skip(skipCount).Take(request.PageSize).ToListAsync();
+
             return roles;
         }
-
     }
 }
