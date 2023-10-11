@@ -175,6 +175,191 @@
              <response code="400">Invalid ID provided.</response>
              <response code="500">Error occurred while deleting the user.</response>
         </member>
+        <member name="T:TestApplication.DTO.AddUserRoleRequest">
+            <summary>
+            Request model for adding a user to a role.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.AddUserRoleRequest.UserId">
+            <summary>
+            Gets or sets the user's unique identifier.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.AddUserRoleRequest.RoleId">
+            <summary>
+            Gets or sets the role's unique identifier.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.CreateUserRequest">
+            <summary>
+            Request model for creating a new user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.CreateUserRequest.Name">
+            <summary>
+            Gets or sets the name of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.CreateUserRequest.Email">
+            <summary>
+            Gets or sets the email of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.CreateUserRequest.Age">
+            <summary>
+            Gets or sets the age of the user.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.EditUserRequest">
+            <summary>
+            Request model for editing an existing user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.EditUserRequest.Id">
+            <summary>
+            Gets or sets the unique identifier of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.EditUserRequest.Name">
+            <summary>
+            Gets or sets the name of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.EditUserRequest.Email">
+            <summary>
+            Gets or sets the email of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.EditUserRequest.Age">
+            <summary>
+            Gets or sets the age of the user.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.FilterParams">
+            <summary>
+            Request model for filtering data based on specified parameters.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterParams.Min">
+            <summary>
+            Gets or sets the minimum value for filtering.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterParams.Max">
+            <summary>
+            Gets or sets the maximum value for filtering.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterParams.Param">
+            <summary>
+            Gets or sets the parameter to use for filtering.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.FilterSortRolesRequest">
+            <summary>
+            Request model for filtering and sorting roles.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortRolesRequest.SelectedRoles">
+            <summary>
+            Gets or sets the list of selected roles for filtering.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortRolesRequest.SortField">
+            <summary>
+            Gets or sets the field to use for sorting.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortRolesRequest.SortDirection">
+            <summary>
+            Gets or sets the sort direction (ascending or descending).
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortRolesRequest.PageSize">
+            <summary>
+            Gets or sets the page size for pagination.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortRolesRequest.PageNumber">
+            <summary>
+            Gets or sets the page number for pagination.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.FilterSortUserRequest">
+            <summary>
+            Request model for filtering and sorting users.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortUserRequest.Filters">
+            <summary>
+            Gets or sets the list of filter parameters for filtering users.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortUserRequest.SortField">
+            <summary>
+            Gets or sets the field to use for sorting.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortUserRequest.SortDirection">
+            <summary>
+            Gets or sets the sort direction (ascending or descending).
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortUserRequest.PageSize">
+            <summary>
+            Gets or sets the page size for pagination.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.FilterSortUserRequest.PageNumber">
+            <summary>
+            Gets or sets the page number for pagination.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.GetUsersRequest">
+            <summary>
+            Request model for retrieving a list of users with pagination.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.GetUsersRequest.PageSize">
+            <summary>
+            Gets or sets the number of users to include in each page.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.GetUsersRequest.PageNumber">
+            <summary>
+            Gets or sets the page number to retrieve.
+            </summary>
+        </member>
+        <member name="T:TestApplication.DTO.UserGetResponse">
+            <summary>
+            Response model for retrieving a user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.UserGetResponse.Id">
+            <summary>
+            Gets or sets the unique identifier of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.UserGetResponse.Name">
+            <summary>
+            Gets or sets the name of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.UserGetResponse.Email">
+            <summary>
+            Gets or sets the email address of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.UserGetResponse.Age">
+            <summary>
+            Gets or sets the age of the user.
+            </summary>
+        </member>
+        <member name="P:TestApplication.DTO.UserGetResponse.Roles">
+            <summary>
+            Gets or sets the list of roles associated with the user.
+            </summary>
+        </member>
         <member name="T:TestTask.Migrations.Initial">
             <inheritdoc />
         </member>

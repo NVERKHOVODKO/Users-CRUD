@@ -1,21 +1,45 @@
-﻿using TestTask.Enums;
+﻿using System.Collections.Generic;
+using TestTask.Enums;
 
-namespace TestApplication.DTO;
-
-public class FilterSortUserRequest
+namespace TestApplication.DTO
 {
-    public List<FilterParams> Filters { get; set; }
-    public string SortField { get; set; }
-    public SortDirection SortDirection { get; set; }
-    public int PageSize { get; set; }
-    public int PageNumber { get; set; }
-
-    public FilterSortUserRequest(List<FilterParams> filters, string sortField, SortDirection sortDirection, int pageSize, int pageNumber)
+    /// <summary>
+    /// Request model for filtering and sorting users.
+    /// </summary>
+    public class FilterSortUserRequest
     {
-        Filters = filters;
-        SortField = sortField;
-        SortDirection = sortDirection;
-        PageSize = pageSize;
-        PageNumber = pageNumber;
+        /// <summary>
+        /// Gets or sets the list of filter parameters for filtering users.
+        /// </summary>
+        public List<FilterParams> Filters { get; set; }
+
+        /// <summary>
+        /// Gets or sets the field to use for sorting.
+        /// </summary>
+        public string SortField { get; set; }
+
+        /// <summary>
+        /// Gets or sets the sort direction (ascending or descending).
+        /// </summary>
+        public SortDirection SortDirection { get; set; }
+
+        /// <summary>
+        /// Gets or sets the page size for pagination.
+        /// </summary>
+        public int PageSize { get; set; }
+
+        /// <summary>
+        /// Gets or sets the page number for pagination.
+        /// </summary>
+        public int PageNumber { get; set; }
+
+        public FilterSortUserRequest(List<FilterParams> filters, string sortField, SortDirection sortDirection, int pageSize, int pageNumber)
+        {
+            Filters = filters;
+            SortField = sortField;
+            SortDirection = sortDirection;
+            PageSize = pageSize;
+            PageNumber = pageNumber;
+        }
     }
 }
