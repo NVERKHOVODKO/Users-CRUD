@@ -351,3 +351,6 @@ C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Newto
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\TestTask.xml
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\obj\Debug\net6.0\TestTask.xml
 C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Scrutor.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\НЕ СИСТЕМА\BSUIR\Users-CRUD\TestTask\TestTask\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
